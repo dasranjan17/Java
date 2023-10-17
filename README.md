@@ -7,11 +7,9 @@ class allSum {
         int sumN=0, sumO=0, sumE=0;
         int n;
         System.out.print("Enter the numbers: ");
-
         do {
             for(int i=1; ; i++){
                 n=sc.nextInt();
-
                 if (n<0){
                 sumN=sumN+n;
                 } else if(n>1 && n%2==0){
@@ -23,7 +21,6 @@ class allSum {
                 }
             } 
         } while(n!=0);
-
         System.out.println("The sum of negative numbers is "+sumN);
         System.out.println("The sum of postive even numbers is "+sumE);
         System.out.println("The sum of postive odd numbers is "+sumO);
