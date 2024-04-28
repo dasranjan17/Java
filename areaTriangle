@@ -1,0 +1,14 @@
+import java.util.*;
+import java.lang.Math;
+class areaTriangle {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.print("Enter the sides of the triangle");
+        int x=sc.nextInt();
+        int y=sc.nextInt();
+        int z=sc.nextInt();
+
+        int s=(x+y+z)/2;
+        int area=
+    }    
+}
