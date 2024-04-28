@@ -1,0 +1,29 @@
+import java.util.*;
+class allSum {
+    public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+       System.out.println("Enter the number");
+        int n= sc.nextInt();
+        int sumN;
+        int sumE;
+        int sumO;
+
+      //  if (n<0)
+      //  System.out.println(n);
+
+        for (n=-1; n<0; n--) {
+            System.out.println(sumM);
+        }
+        for (n=2; n>1; n++) {
+            if (n%2==0) {
+            System.out.println(SUM);
+            }
+        }
+        for (n=1; n>0; n++) {
+            if (n%2==1){
+            System.out.println(n);
+            }
+        }   
+    }
+}
+
